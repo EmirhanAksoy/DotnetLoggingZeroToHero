@@ -2,7 +2,7 @@ using Serilog;
 
 // NOTE :
 // In this example currently we have built in microsofts logs and serilog logs
-// Serilog is not interated with microsoft log yet
+// Serilog is not interated with microsoft build-in logger log yet
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Serilog.ILogger interface is an abstraction for serilog its different from Microsoft's one
+// Serilog.ILogger interface is an abstraction for serilog its different from Microsoft build-in logger
 Serilog.ILogger logger = new LoggerConfiguration().WriteTo.Console().CreateLogger();
 
 // Set global logger
