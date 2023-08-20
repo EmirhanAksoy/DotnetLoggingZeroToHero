@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogMicrosoftBuiltInLogg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogFileConfiguration", "SerilogFileConfiguration\SerilogFileConfiguration.csproj", "{82AB5DEE-8B36-4132-A115-F243A40F74FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogLogEnrichment", "SerilogLogEnrichment\SerilogLogEnrichment.csproj", "{3B213517-1BA8-4CE7-B75C-4D630CA763CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogLogEnrichment", "SerilogLogEnrichment\SerilogLogEnrichment.csproj", "{3B213517-1BA8-4CE7-B75C-4D630CA763CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogStructuredData", "SerilogStructuredData\SerilogStructuredData.csproj", "{3C5BF847-2CB5-41A4-B744-DF835EC89477}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{D539992A-167F-4776-8371-464A13D8CCA2} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{3B213517-1BA8-4CE7-B75C-4D630CA763CF} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{3C5BF847-2CB5-41A4-B744-DF835EC89477} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
