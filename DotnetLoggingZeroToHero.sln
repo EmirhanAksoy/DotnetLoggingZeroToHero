@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogMethods", "LogMethods\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogEventId", "LogEventId\LogEventId.csproj", "{48BBE081-B07C-4F8B-8970-896B84FFD0A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogConfigurationWithAppsettingsJson", "LogConfigurationWithAppsettingsJson\LogConfigurationWithAppsettingsJson.csproj", "{B6785CD5-B935-4E0C-98CD-351B1504DC37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogConfigurationWithAppsettingsJson", "LogConfigurationWithAppsettingsJson\LogConfigurationWithAppsettingsJson.csproj", "{B6785CD5-B935-4E0C-98CD-351B1504DC37}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogExceptions", "LogExceptions\LogExceptions.csproj", "{0994BDFA-405F-4E5B-9BAD-FDAB1E1AC378}"
 EndProject
@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogStaticLogger", "Seri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogWithDI", "SerilogWithDI\SerilogWithDI.csproj", "{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogMicrosoftBuiltInLoggerIntegration", "SerilogMicrosoftBuiltInLoggerIntegration\SerilogMicrosoftBuiltInLoggerIntegration.csproj", "{D539992A-167F-4776-8371-464A13D8CCA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogMicrosoftBuiltInLoggerIntegration", "SerilogMicrosoftBuiltInLoggerIntegration\SerilogMicrosoftBuiltInLoggerIntegration.csproj", "{D539992A-167F-4776-8371-464A13D8CCA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogFileConfiguration", "SerilogFileConfiguration\SerilogFileConfiguration.csproj", "{82AB5DEE-8B36-4132-A115-F243A40F74FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogFileConfiguration", "SerilogFileConfiguration\SerilogFileConfiguration.csproj", "{82AB5DEE-8B36-4132-A115-F243A40F74FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogLogEnrichment", "SerilogLogEnrichment\SerilogLogEnrichment.csproj", "{3B213517-1BA8-4CE7-B75C-4D630CA763CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B213517-1BA8-4CE7-B75C-4D630CA763CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{D539992A-167F-4776-8371-464A13D8CCA2} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{3B213517-1BA8-4CE7-B75C-4D630CA763CF} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
