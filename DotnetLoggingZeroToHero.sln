@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogCategories", "LogCategor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProviders", "LogProviders\LogProviders.csproj", "{6540F6FE-D043-431C-A752-0E79D8F6C45A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMethods", "LogMethods\LogMethods.csproj", "{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6540F6FE-D043-431C-A752-0E79D8F6C45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6540F6FE-D043-431C-A752-0E79D8F6C45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6540F6FE-D043-431C-A752-0E79D8F6C45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,6 +21,7 @@ using ILoggerFactory loggerFactory = LoggerFactory.Create((builder) =>
 // LogLevel.Information    => 2
 // LogLevel.Warning        => 3
 // LogLevel.Error          => 4
+// LogLevel.Critical       => 5
 
 // Base on SetMinimumLevel configuration logs will be displayed on Console
 
@@ -36,6 +37,7 @@ logger.Log(LogLevel.Debug, "This is a Debug level log");
 logger.Log(LogLevel.Information, "This is an Information level log");
 logger.Log(LogLevel.Warning, "This is a Warning level log");
 logger.Log(LogLevel.Error, "This is an Error level log");
+logger.Log(LogLevel.Critical, "This is an Critical level log");
 logger.Log(LogLevel.None, "This is a None level log");
 
 
