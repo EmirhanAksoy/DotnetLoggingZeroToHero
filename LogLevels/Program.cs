@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using ILoggerFactory loggerFactory = LoggerFactory.Create((builder) =>
 {
     builder.AddConsole();
-    builder.SetMinimumLevel(LogLevel.Warning);
+    builder.SetMinimumLevel(LogLevel.Warning); // Change level for better understanding
 });
 
 // Logger factory helps to produce intances of ILogger based on the providers with CreateLogger method
