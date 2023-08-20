@@ -10,3 +10,6 @@ Serilog.Core.Logger logger = new LoggerConfiguration()
 Log.Logger = logger;    
 
 Log.Information("This is an information log");
+
+// CloseAndFlush will reset default logger and original will disposed
+Log.CloseAndFlush();
