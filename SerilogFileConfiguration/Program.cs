@@ -2,23 +2,13 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-// Package needed for integration > Serilog.AspNetCore
-// UseSerilog method will be hijacking with Microsoft built-in logger
-// All logs will be created by serilogy please check console
+// ReadFrom.Configuration will help to read serilog configs via appsettings.json
+Serilog.ILogger logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
+Log.Logger = logger;
 builder.Host.UseSerilog();
-
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Serilog.ILogger interface is an abstraction for serilog its different from Microsoft build-in logger
-Serilog.ILogger logger = new LoggerConfiguration().WriteTo.Console().CreateLogger();
-
-// Set global logger
-Log.Logger = logger;
-
-// Provide service  
 builder.Services.AddSingleton(logger);
 
 var app = builder.Build();

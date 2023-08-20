@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogWithDI", "SerilogWit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogMicrosoftBuiltInLoggerIntegration", "SerilogMicrosoftBuiltInLoggerIntegration\SerilogMicrosoftBuiltInLoggerIntegration.csproj", "{D539992A-167F-4776-8371-464A13D8CCA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogFileConfiguration", "SerilogFileConfiguration\SerilogFileConfiguration.csproj", "{82AB5DEE-8B36-4132-A115-F243A40F74FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{D539992A-167F-4776-8371-464A13D8CCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D539992A-167F-4776-8371-464A13D8CCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D539992A-167F-4776-8371-464A13D8CCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AB5DEE-8B36-4132-A115-F243A40F74FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{24F04CF6-BFD0-4C10-9533-436809608E31} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{D539992A-167F-4776-8371-464A13D8CCA2} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{82AB5DEE-8B36-4132-A115-F243A40F74FE} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
