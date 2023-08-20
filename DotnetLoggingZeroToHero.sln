@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogTransformingStructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogMaskingSensitiveData", "SerilogMaskingSensitiveData\SerilogMaskingSensitiveData.csproj", "{878208CC-BDD7-494D-BED2-CD81A6513AE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "High Performance Logging", "High Performance Logging", "{B83AA09D-8278-4C01-B7DF-2B9C8CA0E23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogHighPerformance", "LogHighPerformance\LogHighPerformance.csproj", "{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{878208CC-BDD7-494D-BED2-CD81A6513AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878208CC-BDD7-494D-BED2-CD81A6513AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878208CC-BDD7-494D-BED2-CD81A6513AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +159,7 @@ Global
 		{3C5BF847-2CB5-41A4-B744-DF835EC89477} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{40987219-ABE9-476B-8EB5-3BDAB8951EE0} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{878208CC-BDD7-494D-BED2-CD81A6513AE8} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{FFD10E32-5548-48E1-9EBD-EDB8593BA8D1} = {B83AA09D-8278-4C01-B7DF-2B9C8CA0E23D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}

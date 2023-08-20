@@ -17,9 +17,6 @@ logger.Information("Payment has been completed {@paymentData}",new Payment(99.5m
 // Dictionaries will be automatically converted to json 
 logger.Information("Magical pairs {@magicalPairs}", magicalPairs);
 
-
-Log.CloseAndFlush();
-
 public class Payment
 {
     public Payment(decimal amount)
