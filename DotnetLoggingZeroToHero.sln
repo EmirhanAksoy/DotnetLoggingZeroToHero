@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogLogEnrichment", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogStructuredData", "SerilogStructuredData\SerilogStructuredData.csproj", "{3C5BF847-2CB5-41A4-B744-DF835EC89477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogTransformingStructuredData", "SerilogTransformingStructuredData\SerilogTransformingStructuredData.csproj", "{40987219-ABE9-476B-8EB5-3BDAB8951EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5BF847-2CB5-41A4-B744-DF835EC89477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40987219-ABE9-476B-8EB5-3BDAB8951EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40987219-ABE9-476B-8EB5-3BDAB8951EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40987219-ABE9-476B-8EB5-3BDAB8951EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40987219-ABE9-476B-8EB5-3BDAB8951EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{82AB5DEE-8B36-4132-A115-F243A40F74FE} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{3B213517-1BA8-4CE7-B75C-4D630CA763CF} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{3C5BF847-2CB5-41A4-B744-DF835EC89477} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{40987219-ABE9-476B-8EB5-3BDAB8951EE0} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
