@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMessageTemplate", "LogMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingComplexObjects", "LoggingComplexObjects\LoggingComplexObjects.csproj", "{AAA5198D-6C51-43C5-8CD2-84107248C895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogScopes", "LogScopes\LogScopes.csproj", "{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{AAA5198D-6C51-43C5-8CD2-84107248C895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA5198D-6C51-43C5-8CD2-84107248C895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA5198D-6C51-43C5-8CD2-84107248C895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
