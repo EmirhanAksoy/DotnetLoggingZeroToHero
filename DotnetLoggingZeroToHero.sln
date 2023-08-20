@@ -3,37 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLevels", "LogLevels\LogLevels.csproj", "{2C6719C4-9F13-41E0-B681-35716EA19CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogLevels", "LogLevels\LogLevels.csproj", "{2C6719C4-9F13-41E0-B681-35716EA19CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogCategories", "LogCategories\LogCategories.csproj", "{8C8AA860-B985-4283-9B73-ADE72C49F485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogCategories", "LogCategories\LogCategories.csproj", "{8C8AA860-B985-4283-9B73-ADE72C49F485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProviders", "LogProviders\LogProviders.csproj", "{6540F6FE-D043-431C-A752-0E79D8F6C45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProviders", "LogProviders\LogProviders.csproj", "{6540F6FE-D043-431C-A752-0E79D8F6C45A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMethods", "LogMethods\LogMethods.csproj", "{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogMethods", "LogMethods\LogMethods.csproj", "{1940691F-3596-4CE7-ACE3-E4E7D9BF80AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEventId", "LogEventId\LogEventId.csproj", "{48BBE081-B07C-4F8B-8970-896B84FFD0A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogEventId", "LogEventId\LogEventId.csproj", "{48BBE081-B07C-4F8B-8970-896B84FFD0A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogConfigurationWithAppsettingsJson", "LogConfigurationWithAppsettingsJson\LogConfigurationWithAppsettingsJson.csproj", "{B6785CD5-B935-4E0C-98CD-351B1504DC37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogExceptions", "LogExceptions\LogExceptions.csproj", "{0994BDFA-405F-4E5B-9BAD-FDAB1E1AC378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogExceptions", "LogExceptions\LogExceptions.csproj", "{0994BDFA-405F-4E5B-9BAD-FDAB1E1AC378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogFilters", "LogFilters\LogFilters.csproj", "{2144CF16-9B6C-40B9-9C70-0C9D1E273DE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogFilters", "LogFilters\LogFilters.csproj", "{2144CF16-9B6C-40B9-9C70-0C9D1E273DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLogProvider", "CustomLogProvider\CustomLogProvider.csproj", "{434ED2A0-019F-47D8-9CC7-7EFDFA29BCEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomLogProvider", "CustomLogProvider\CustomLogProvider.csproj", "{434ED2A0-019F-47D8-9CC7-7EFDFA29BCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMessageTemplate", "LogMessageTemplate\LogMessageTemplate.csproj", "{CD63F0B5-FA5F-491E-95CA-EA365D87B9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogMessageTemplate", "LogMessageTemplate\LogMessageTemplate.csproj", "{CD63F0B5-FA5F-491E-95CA-EA365D87B9F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingComplexObjects", "LoggingComplexObjects\LoggingComplexObjects.csproj", "{AAA5198D-6C51-43C5-8CD2-84107248C895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingComplexObjects", "LoggingComplexObjects\LoggingComplexObjects.csproj", "{AAA5198D-6C51-43C5-8CD2-84107248C895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogScopes", "LogScopes\LogScopes.csproj", "{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogScopes", "LogScopes\LogScopes.csproj", "{C43ADBE3-3E9C-4C0A-B574-3B6B4F726D78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serilog", "Serilog", "{19B3ADEF-CB12-444E-8D93-0E87B8EA847D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogLogger", "SerilogLogger\SerilogLogger.csproj", "{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogLogger", "SerilogLogger\SerilogLogger.csproj", "{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogStaticLogger", "SerilogStaticLogger\SerilogStaticLogger.csproj", "{24F04CF6-BFD0-4C10-9533-436809608E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogStaticLogger", "SerilogStaticLogger\SerilogStaticLogger.csproj", "{24F04CF6-BFD0-4C10-9533-436809608E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogWithDI", "SerilogWithDI\SerilogWithDI.csproj", "{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogWithDI", "SerilogWithDI\SerilogWithDI.csproj", "{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogMicrosoftBuiltInLoggerIntegration", "SerilogMicrosoftBuiltInLoggerIntegration\SerilogMicrosoftBuiltInLoggerIntegration.csproj", "{D539992A-167F-4776-8371-464A13D8CCA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D539992A-167F-4776-8371-464A13D8CCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D539992A-167F-4776-8371-464A13D8CCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D539992A-167F-4776-8371-464A13D8CCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D539992A-167F-4776-8371-464A13D8CCA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{A17E6A06-FB92-4BEF-9D07-DC0B573D449F} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{24F04CF6-BFD0-4C10-9533-436809608E31} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 		{47C8EDDA-83F8-47F8-A15A-17E9E1F1EAC6} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{D539992A-167F-4776-8371-464A13D8CCA2} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
