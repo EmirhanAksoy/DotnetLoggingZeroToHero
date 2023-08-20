@@ -14,7 +14,7 @@ using ILoggerFactory loggerFactory = LoggerFactory.Create((builder) =>
     builder.SetMinimumLevel(LogLevel.Information);
 });
 
-// Log scopes is using to store metadata between scope boundaries
+// Log scopes is using to store metadata for each logs between scope boundaries
 
 // Providers should support scope usage
 
