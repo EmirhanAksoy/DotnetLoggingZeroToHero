@@ -1,31 +1,31 @@
 # Dotnet Logging Zero To Hero
 
 
--Log Categories
+- Log Categories
 
--Log Levels
+- Log Levels
 
--Log Providers
+- Log Providers
 
--Log Methods
+- Log Methods
 
--Log Filters
+- Log Filters
 
--Logging Complex Objects
+- Logging Complex Objects
 
--Logging Message Templates
+- Logging Message Templates
 
--Log Scopes
+- Log Scopes
 
--Custom Logger Provider
+- Custom Logger Provider
 
--Serilog Log Provider
+- Serilog Log Provider
 
--Serilog File-Based Configuration  
+- Serilog File-Based Configuration  
 
--Log Enrichment 
+- Log Enrichment 
 
--Transforming Structured Data 
+- Transforming Structured Data 
 
 - Masking Sensitive Logs
 
