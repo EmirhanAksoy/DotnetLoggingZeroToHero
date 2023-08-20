@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serilog", "Serilog", "{19B3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogLogger", "SerilogLogger\SerilogLogger.csproj", "{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogStaticLogger", "SerilogStaticLogger\SerilogStaticLogger.csproj", "{24F04CF6-BFD0-4C10-9533-436809608E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,12 +91,17 @@ Global
 		{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17E6A06-FB92-4BEF-9D07-DC0B573D449F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F04CF6-BFD0-4C10-9533-436809608E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F04CF6-BFD0-4C10-9533-436809608E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F04CF6-BFD0-4C10-9533-436809608E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F04CF6-BFD0-4C10-9533-436809608E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A17E6A06-FB92-4BEF-9D07-DC0B573D449F} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
+		{24F04CF6-BFD0-4C10-9533-436809608E31} = {19B3ADEF-CB12-444E-8D93-0E87B8EA847D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CC97B1-6BE6-41DC-8388-AC1FB47B2A5D}
